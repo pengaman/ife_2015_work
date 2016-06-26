@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+	<title>GTD任务管理</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="ife,GTD">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="promptstyle.css">
+	<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css">
+</head>
+<body>
+	<header><h1>GTD&nbspTool</h1></header>
+	<section>
+		<div class="sort_list font1">
+			<h3>所有任务</h3>
+			<h3 id="num"><i class="icon iconfont">&#xe7ad;</i>任务列表<span></span></h3>
+			<ul id="sort_list">
+				
+			</ul>
+			<button id="add_sort"><i class="iconfont3">&#xe767;</i>新建分类</button>
+		</div>
+
+		<div class="task_list font1">
+			<h3><span id='all'>所有</span><span id='not_finish'>未完成</span><span id='all_finish'>已完成</span></h3>
+			<ul id="tlist">
+				
+			</ul>
+			<button id="add_task"><i class="iconfont3">&#xe767;</i>新建任务</button>
+		</div>
+		<div class="task">
+			<h2><span id="task_title"></span><i id="finish" class="iconfont2">&#xe657;</i><i id="edit" class="iconfont2">&#xe760;</i></h2>
+			<h3 class="choose"><span id="task_date"></span></h3>
+			<div ><span id="task_content"></span></div>
+			<div style="display:none;">
+				<button id="btn3">保存</button>
+				<button id="btn4">放弃</button>
+			</div>
+		</div>
+	</section>
+	<div id="prompt" class="no">
+        <div class="prompt-title">
+            <div class="prompt-close" onclick="closeprompt()">×</div>
+            <div class="prompt-name"></div>
+        </div>
+        <div class="prompt-content"></div>
+    </div>
+    <div class="shelter"></div>
+	<script type="text/javascript" src="data_style.js"></script>
+</body>
+</html>

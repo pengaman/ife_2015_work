@@ -1,0 +1,192 @@
+*{
+	margin:0;
+	padding: 0;
+}
+h1{
+	font-family: "Î¢ÈíÑÅºÚ";
+	color:#524F4F;
+	font-size: 25px;
+	position: absolute;
+	top: 50%;
+	left:10px;
+	margin-top: -13px;
+}
+h3{
+	padding:5px 10px;
+	font-weight: 100;
+	font-family: "Î¢ÈíÑÅºÚ";
+	color:#333;
+	font-size: 18px;
+}
+h4{
+	padding:2px 10px;
+	font-weight: 100;
+	font-family: "Î¢ÈíÑÅºÚ";
+	color:#333;
+	background-color: #F9E8EE;
+	font-size: 18px;
+}
+html,body{
+	min-width: 884px;
+	min-height: 600px;
+	height:100%;
+	width:100%;
+	
+}
+button{
+	font-size: 20px;
+}
+
+.font1{
+	font-family: "Î¢ÈíÑÅºÚ";
+	color:#333;
+	font-size: 18px;
+
+}
+
+header{
+	height:10%;
+	width:100%;
+	background-color: #A5A5A5;
+	position:relative;
+}
+section{
+	width:100%;
+	height:90%;
+	color:#333;
+
+}
+.sort_list{
+	width:209px;
+	height:100%;
+	float: left;
+	border-right: 1px #A5A5A5 solid;
+	background-color: #eee;
+	position:relative;
+}
+.task_list{
+	width:209px;
+	height:100%;
+	float: left;
+	border-right: 1px #A5A5A5 solid;
+	background-color: #fff;
+	position:relative;
+}
+.task{
+	height:100%;
+	width:100%;
+	background-color: #eee;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	padding:2px 10px;
+	font-size: 17px;
+}
+ul li ul li:hover{
+	background-color:#fff;
+	cursor:pointer;
+}
+ul li ul li:hover i{
+	display:inline-block;
+} 
+li.lihead:hover i{
+	display:inline-block;
+}
+#tlist li:hover i{
+	display:inline-block;
+}
+#add_task,#add_sort{
+	border:none;
+	width:100%;
+	height:7%;
+	border-top: 1px #A5A5A5 solid;
+	position:absolute;
+	bottom:0;
+	cursor:pointer;
+	background:none;
+}
+.task_list span{
+	padding:3px 6px; 
+	cursor: pointer;
+	border-radius: 6px;
+}
+.task_list span:hover{
+	background-color: #fff;
+	box-shadow: #666 2px 2px 3px;
+}
+.task_list h3{
+	background-color: #eee;
+	border-bottom:1px #A5A5A5 solid;
+	height:35px;
+	line-height: 35px;
+}
+.task h2{
+	font-size: 25px;
+	font-weight: 600;
+	border-bottom: 1px #A5A5A5 solid;
+	padding: 20px;
+	line-height: 22px;	
+}
+.task h3{
+	font-weight: 200;
+	font-size: 22px;
+	border-bottom: 1px #A5A5A5 solid;
+	padding: 20px;
+	line-height: 22px;	
+}
+.task span{
+	position:relative;
+	left:10px;
+}
+.task span#task_content{
+	top:10px;
+	font-size: 20px;
+
+}
+.task input{
+	font-size: 20px;
+}
+.task textarea{
+	font-size: 20px;
+	vertical-align: top;
+	width:380px;
+	height:200px;
+}
+#tlist li:hover{
+	background-color: #eee;
+}
+#tlist li{
+	font-size: 18px;
+}
+.status{
+	color:green;
+}
+.choose{
+	background-color: #F9E8EE;
+}
+.choose1{
+	background-color: #eee;
+}
+.choose2{
+	background-color:#fff;
+	box-shadow: #666 2px 2px 3px;
+}
+#btn3{
+	position:absolute;
+	bottom:40px;
+	right:130px;
+	border:none;
+	background-color:#809B82;
+	padding:5px;
+}
+#btn4{
+	position:absolute;
+	bottom:40px;
+	right:50px;
+	border:none;
+	background-color:#ccc;
+	padding:5px;
+
+}
